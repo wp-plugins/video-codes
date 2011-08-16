@@ -106,3 +106,4 @@ function vcfb_shortcode( $atts ) {
    return '<object width="' . esc_attr($w) . '" height="' . esc_attr($h) . '"><param name="movie" value="http://www.facebook.com/v/' . esc_attr($id) . '"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.megavideo.com/v/' . esc_attr($id) . '" type="application/x-shockwave-flash" allowfullscreen="true" width="' . esc_attr($w) . '" height="' . esc_attr($h) . '"></embed></object>';
 }
 add_shortcode( 'vfbv', 'vcfb_shortcode' );
+?>
