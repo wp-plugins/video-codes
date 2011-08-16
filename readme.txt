@@ -3,7 +3,7 @@ Contributors: ibabar
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UF6NETKA8S7S6
 Tags: Video, embed, easy video embed, emved video easily, Youtube, Google video, Metacafe, Megavideo, Vimeo, Facebook, Facebook Videos, Video embed shortcodes, Shortcodes, Videos Codes
 Requires at least: 3.0
-Tested Up to: 3.1.2
+Tested Up to: 3.2.1
 Stable Tag: 1.0
 
 The easiest way to embed videos on your Wordpress Site and,or blog.
