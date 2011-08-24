@@ -12,7 +12,7 @@ License: GPL v2
 */
 
 /*Youtube Video ShortCode*/
-function yt_shortcode( $atts ) {
+function vcyt_shortcode( $atts ) {
    extract( shortcode_atts( array(
       'h' => '385',
       'w' => '640',
@@ -29,7 +29,7 @@ function yt_shortcode( $atts ) {
    return '<iframe class="youtube-player" type="text/html" width="' . esc_attr($w) . '" height="' . esc_attr($h) . '" src="http:
 //www.youtube.com/embed/' . esc_attr($id) . '/?modestbranding=' . esc_attr($ytlogo) . '&amp;theme=' . esc_attr($theme) . '&amp;autohide=1&amp;rel=' . esc_attr($rel) . '&amp;showinfo=' . esc_attr($info) . 'playlist=' . esc_attr($playlist) . '&amp;start=' . esc_attr($time) . '" frameborder="' . esc_attr($border) . '" ></iframe>';
 }
-add_shortcode( 'yt', 'yt_shortcode' );
+add_shortcode( 'vcyt', 'vcyt_shortcode' );
 
 /*Google Video ShortCote*/
 function vcgv_shortcode( $atts ) {
@@ -106,7 +106,7 @@ function vcfb_shortcode( $atts ) {
       'id' => null,
       ), $atts ) );
  
-   return '<object width="' . esc_attr($w) . '" height="' . esc_attr($h) . '"><param name="movie" value="http://www.facebook.com/v/' . esc_attr($id) . '"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.megavideo.com/v/' . esc_attr($id) . '" type="application/x-shockwave-flash" allowfullscreen="true" width="' . esc_attr($w) . '" height="' . esc_attr($h) . '"></embed></object>';
+   return '<object width="' . esc_attr($w) . '" height="' . esc_attr($h) . '"><param name="movie" value="http://www.facebook.com/v/' . esc_attr($id) . '"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.facebook.com/v/' . esc_attr($id) . '" type="application/x-shockwave-flash" allowfullscreen="true" width="' . esc_attr($w) . '" height="' . esc_attr($h) . '"></embed></object>';
 }
 add_shortcode( 'vfbv', 'vcfb_shortcode' );
 ?>
