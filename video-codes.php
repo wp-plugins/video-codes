@@ -2,8 +2,8 @@
 /*Plugin Name: Video Codes
 Plugin URI: http://www.workerslab.com
 Description: The easiest way to add youtube videos on your Wordpress Blog.
-Version: 1.1
-Author: Babar
+Version: 1.2
+Author: Babar and Malte
 Author URI: http://www.iBabar.com
 Requires at least: 3.0
 Tested Up to: 3.3.1
