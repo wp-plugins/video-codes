@@ -1,10 +1,10 @@
 ===Video Codes===
-Contributors: ibabar
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UF6NETKA8S7S6
+Contributors: ibabar, persson
+Donate link: 
 Tags: Video, embed, easy video embed, emved video easily, Youtube, Google video, Metacafe, Megavideo, Vimeo, Facebook, Facebook Videos, Video embed shortcodes, Shortcodes, Videos Codes
 Requires at least: 3.0
-Tested Up to: 3.2.1
-Stable Tag: 1.1
+Tested Up to: 3.3.1
+Stable Tag: 1.2
 
 The easiest way to embed videos on your Wordpress Site and,or blog.
 
@@ -59,6 +59,10 @@ For example: [vcyt id=VIDEO_ID w=640 h=385]
 Have further question? Let me know.
 
 ==Changelog==
+Released Version: 1.2
+Release Note: Made Updated for WordPress 3.3.x
+
+
 Date: 27-08-2011
 Released Version: 1.1
 Release Note: Some Minor changes and small fixes.
