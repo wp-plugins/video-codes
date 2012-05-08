@@ -1,5 +1,5 @@
 ===Video Codes===
-Contributors: ibabar, persson
+Contributors: ericgrld
 Donate link: 
 Tags: Video, embed, easy video embed, emved video easily, Youtube, Google video, Metacafe, Megavideo, Vimeo, Facebook, Facebook Videos, Video embed shortcodes, Shortcodes, Videos Codes
 Requires at least: 3.0
