@@ -4,13 +4,13 @@ Donate link:
 Tags: Video, embed, easy video embed, emved video easily, Youtube, Google video, Metacafe, Megavideo, Vimeo, Facebook, Facebook Videos, Video embed shortcodes, Shortcodes, Videos Codes
 Requires at least: 3.0
 Tested Up to: 3.5
-Stable Tag: 1.2.1
+Stable Tag: 1.2.2
 
 The easiest way to embed videos on your Wordpress Site and,or blog.
 
 ==Description==
 Bored about inserting video embed codes on HTML mode and when back all are messed? Searcing for a better solution?
-Yap, you have just hitted on the right place! Withh Video Codes now Embed a video is as easy as type your name!
+Yap, you have just hitted on the right place! With Video Codes now Embed a video is as easy as type your name!
 Now you don't have to be a geek to insert a video on your blog posts. It's just Get, Set and Go!
 
 Supported Hosts:
@@ -24,7 +24,15 @@ Supported Hosts:
 </ol>
 (Adding more hosts. Let me know if you have any special choice or need)
 
-Still searcing for something? Just drop e a message @ <a href="http://en.ibabar.com" title="Use the contact form on my blog" rel="follow">My Blog</a>
+Usage instruction:
+Video Codes is so easy to use. You can embed a youtube video into your 
+post or page with just a single line like: [vcyt id=VIDEO_ID]
+For detailed instruction please take a look inside the <a 
+href="http://wordpress.org/extend/plugins/video-codes/other_notes/">Other 
+Notes</a>
+
+Still searching for something? Just drop me a message @ <a 
+href="http://en.ibabar.com" title="Use the contact form on my blog" rel="follow">My Blog</a>
 
 == Installation ==
 You can Install it in two easy ways.
@@ -33,6 +41,10 @@ or another way,
 Put the videocodes.php file in your Plugins folder.
 Now go to yor dashboard plugin section and active Video Codes.
 Isn't it simple!?
+
+For detailed instruction please take a look inside the <a
+href="http://wordpress.org/extend/plugins/video-codes/other_notes/">Other
+Notes</a>
 
 == Frequently Asked Questions ==
 Coming Soon.
@@ -59,6 +71,10 @@ For example: [vcyt id=VIDEO_ID w=640 h=385]
 Have further question? Let me know.
 
 ==Changelog==
+Date: 20-12-2012
+Released Version: 1.2.2
+Release Note: Edited the docs as suggested here: http://wordpress.org/support/topic/please-include-usage-instructions-in-the-description
+
 Date: 12-12-2012
 Released Version: 1.2.1
 Release Note: Updated for 3.5.x
