@@ -2,12 +2,12 @@
 /*Plugin Name: Video Codes
 Plugin URI: http://en.ibabar.com
 Description: The easiest way to add youtube videos on your Wordpress Blog.
-Version: 1.2.1
+Version: 1.2.2
 Author: Babar
 Author URI: http://www.iBabar.com
 Requires at least: 3.0
 Tested Up to: 3.5
-Stable Tag: 1.2.1
+Stable Tag: 1.2.2
 License: GPL v2
 */
 
