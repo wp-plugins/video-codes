@@ -10,8 +10,8 @@ The easiest way to embed videos on your Wordpress Site and,or blog.
 
 ==Description==
 Bored about inserting video embed codes on HTML mode and when back all are messed? Searcing for a better solution?
-Yap, you have just hitted on the right place! With Video Codes now Embed a video is as easy as type your name!
-Now you don't have to be a geek to insert a video on your blog posts. It's just Get, Set and Go!
+Yap, you have just hit on the right place! With Video Codes now Embeding a video is as easy as typing your name!
+Now you don't have to be a geek to insert a video on your blog posts. Just Get, Set and Go!
 
 <strong>Supported Hosts:</strong>
 <ol>
@@ -60,7 +60,7 @@ Is it needed!? ;)
 For all hosts the common format is: [consernig_host_name id=VIDEO_ID]
 <ul>
 <li>Youtube: [vcyt id=VIDEO_ID]</li>
-<li>Vimeo: <vcvv id=VIDEO_ID]</li>
+<li>Vimeo: [vcvv id=VIDEO_ID]</li>
 <li>Google Video: [vcgv id=VIDEO_ID]</li>
 <li>DailyMotion: [vcdm id=VIDEO_ID]</li>
 <li>MetaCafe: [vcmc id=VIDEO_ID]</li>
@@ -68,8 +68,8 @@ For all hosts the common format is: [consernig_host_name id=VIDEO_ID]
 <li>Facebook: [vcfb id=VIDEO_ID]</li>
 </ul>
 You can change the width and height easily with 'w' and 'h' parametre.<br />
-For example: [vcyt id=VIDEO_ID w=640 h=385]
-Other standered parameters supported by provider also work.
+For example: [vcyt id=VIDEO_ID w=640 h=385]<br>
+Other standered parameters supported by provider will also work.
 
 Have further question? Let me know.
 
