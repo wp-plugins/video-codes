@@ -4,7 +4,7 @@ Donate link: http://donate.ibabar.com
 Tags: Video, embed, easy video embed, emved video easily, Youtube, Google video, Metacafe, Megavideo, Vimeo, Facebook, Facebook Videos, Video embed shortcodes, Shortcodes, Videos Codes
 Requires at least: 3.0
 Tested Up to: 3.5
-Stable Tag: 1.2.3
+Stable Tag: 1.3
 
 The easiest way to embed videos on your Wordpress Site and,or blog.
 
@@ -22,6 +22,7 @@ Now you don't have to be a geek to insert a video on your blog posts. Just Get, 
 <li>MetaCafe</li>
 <li>MegaVideo</li>
 <li>Facebook</li>
+<li>Viewbix</li>
 </ol>
 (Adding more hosts. Let me know if you have any special choice or need)
 
@@ -66,6 +67,7 @@ For all hosts the common format is: [consernig_host_name id=VIDEO_ID]
 <li>MetaCafe: [vcmc id=VIDEO_ID]</li>
 <li>MegaVideo: [vcmv id=VIDEO_ID]</li>
 <li>Facebook: [vcfb id=VIDEO_ID]</li>
+<li>Viewbix: [vcvb id=VIDEO_ID]</li>
 </ul>
 You can change the width and height easily with 'w' and 'h' parametre.<br />
 For example: [vcyt id=VIDEO_ID w=640 h=385]<br>
@@ -74,6 +76,11 @@ Other standered parameters supported by provider will also work.
 Have further question? Let me know.
 
 ==Changelog==
+Date: 28-02-2013
+Released Version: 1.3
+Release Note: Added support for Viewbix.
+
+
 Date: 05-01-2013
 Released Version: 1.2.3
 Release Note: Added some Vimeo support.

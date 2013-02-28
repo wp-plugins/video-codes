@@ -2,12 +2,12 @@
 /*Plugin Name: Video Codes
 Plugin URI: http://en.ibabar.com
 Description: The easiest way to add youtube videos on your Wordpress Blog.
-Version: 1.2.3
+Version: 1.3
 Author: Babar
 Author URI: http://www.iBabar.com
 Requires at least: 3.0
 Tested Up to: 3.5
-Stable Tag: 1.2.3
+Stable Tag: 1.3
 License: GPL v2
 */
 
@@ -108,5 +108,21 @@ function vcfb_shortcode( $atts ) {
  
    return '<object width="' . esc_attr($w) . '" height="' . esc_attr($h) . '"><param name="movie" value="http://www.facebook.com/v/' . esc_attr($id) . '"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.facebook.com/v/' . esc_attr($id) . '" type="application/x-shockwave-flash" allowfullscreen="true" width="' . esc_attr($w) . '" height="' . esc_attr($h) . '"></embed></object>';
 }
-add_shortcode( 'vfbv', 'vcfb_shortcode' );
+add_shortcode( 'vcfb', 'vcfb_shortcode' );
+
+/*Viewbix Video shortcode */
+function vcvb_shortcode ( $atts ) {
+	extract( shortcode_atts( array(
+		'h' => '292',
+		'w' => '398',
+		'id' = 'null',
+		), $atts ) );
+
+    return '<iframe width="' . esc_attr($w) . '" height="' . esc_attr($h) . '" 
+    src="http://www.viewbix.com/frame/' . esc_attr($id) . '?w=' . esc_attr($w) . '&h=' . esc_attr($h) . '" frameborder="0" 
+    scrolling="no" allowTransparency="true"></iframe>';
+    }
+add_shortcode( 'vcvb', 'vcvb_shortcode' );
+
+
 ?>
