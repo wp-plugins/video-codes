@@ -115,7 +115,7 @@ function vcvb_shortcode ( $atts ) {
 	extract( shortcode_atts( array(
 		'h' => '292',
 		'w' => '398',
-		'id' = 'null',
+		'id' => 'null',
 		), $atts ) );
 
     return '<iframe width="' . esc_attr($w) . '" height="' . esc_attr($h) . '" 
