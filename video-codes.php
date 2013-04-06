@@ -115,12 +115,10 @@ function vcvb_shortcode ( $atts ) {
 	extract( shortcode_atts( array(
 		'h' => '292',
 		'w' => '398',
-		'id' = 'null',
+		'id' => 'null',
 		), $atts ) );
 
-    return '<iframe width="' . esc_attr($w) . '" height="' . esc_attr($h) . '" 
-    src="http://www.viewbix.com/frame/' . esc_attr($id) . '?w=' . esc_attr($w) . '&h=' . esc_attr($h) . '" frameborder="0" 
-    scrolling="no" allowTransparency="true"></iframe>';
+    return '<iframe width="' . esc_attr($w) . '" height="' . esc_attr($h) . '" src="http://www.viewbix.com/frame/' .esc_attr($id). '?w=' . esc_attr($w) . '&amp;h=' . esc_attr($h) . '" frameborder="0" scrolling="no" allowTransparency="true"></iframe>';
     }
 add_shortcode( 'vcvb', 'vcvb_shortcode' );
 
