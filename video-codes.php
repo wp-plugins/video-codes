@@ -2,12 +2,12 @@
 /*Plugin Name: Video Codes
 Plugin URI: http://en.ibabar.com
 Description: The easiest way to add youtube videos on your Wordpress Blog.
-Version: 1.3
+Version: 1.4
 Author: Babar
 Author URI: http://www.iBabar.com
 Requires at least: 3.0
 Tested Up to: 3.5
-Stable Tag: 1.3
+Stable Tag: 1.4
 License: GPL v2
 */
 
@@ -106,7 +106,7 @@ function vcfb_shortcode( $atts ) {
       'id' => null,
       ), $atts ) );
  
-   return '<object width="' . esc_attr($w) . '" height="' . esc_attr($h) . '"><param name="movie" value="http://www.facebook.com/v/' . esc_attr($id) . '"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.facebook.com/v/' . esc_attr($id) . '" type="application/x-shockwave-flash" allowfullscreen="true" width="' . esc_attr($w) . '" height="' . esc_attr($h) . '"></embed></object>';
+   return '<iframe src="http://www.facebook.com/video/embed?video_id=' . esc_attr($id) . '" width="' . esc_attr($w) . '" height="' . esc_attr($h) . '" frameborder="0"></iframe>';
 }
 add_shortcode( 'vcfb', 'vcfb_shortcode' );
 

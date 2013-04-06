@@ -4,7 +4,7 @@ Donate link: http://donate.ibabar.com
 Tags: Video, embed, easy video embed, emved video easily, Youtube, Google video, Metacafe, Megavideo, Vimeo, Facebook, Facebook Videos, Video embed shortcodes, Shortcodes, Videos Codes
 Requires at least: 3.0
 Tested Up to: 3.5
-Stable Tag: 1.3
+Stable Tag: 1.4
 
 The easiest way to embed videos on your Wordpress Site and,or blog.
 
@@ -76,6 +76,11 @@ Other standered parameters supported by provider will also work.
 Have further question? Let me know.
 
 ==Changelog==
+Date: 07-04-2013
+Released Version: 1.4
+Release Note: Updated Facebook embed code to the current one.
+
+
 Date: 28-02-2013
 Released Version: 1.3
 Release Note: Added support for Viewbix.
